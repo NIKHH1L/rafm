@@ -18,6 +18,17 @@ const sales = require('./routes/sales');
 
 const app = express();
 
+
+const { MongoClient, ServerApiVersion } = require('mongodb');
+const uri = "mongodb+srv://rafm_dbad:db@rafm#adM@rafm.lrjexgd.mongodb.net/?retryWrites=true&w=majoriyt";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
+
+
 app.use(cors());
 app.use(express.json());
 
