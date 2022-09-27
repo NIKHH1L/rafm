@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keen-ToLearn/rafms.git"
+    "url": "git+https://github.com/NIKHH1L/rafm.git"
   },
   "author": "kom",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keen-ToLearn/rafms/issues"
+    "url": "https://github.com/NIKHH1L/rafm/issues"
   },
-  "homepage": "https://github.com/keen-ToLearn/rafms#readme",
+  "homepage": "https://github.com/NIKHH1L/rafm#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
